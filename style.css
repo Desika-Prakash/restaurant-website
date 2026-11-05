@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Carousel */
+
+.carousel img {
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+/* Section headings */
+
+h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Food cards */
+
+.food-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+
+.btn-warning {
+    background-color: orange;
+    border: none;
+}
+
+/* Footer */
+
+footer {
+    line-height: 2;
+}
+
+/* Mobile */
+
+@media (max-width: 576px) {
+
+    .carousel img {
+        height: 300px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 22px;
+    }
+
+}
